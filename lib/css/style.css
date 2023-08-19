@@ -1,0 +1,57 @@
+.style-cols {
+    border: solid 2px #000;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.style-cols:hover {
+    border: solid 2px coral;
+    border-radius: 5px;
+    color: coral;
+    padding: 20px;
+    text-align: center;    
+    cursor: pointer;
+
+}
+
+.style-cols-disciplinas {
+    border: solid 2px #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.style-cols-disciplinas:hover {
+    border: solid 2px blue;
+    border-radius: 5px;
+    margin: 5px;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+h6 {
+    margin: 0 !important;
+}
+
+.p-20 {
+    padding: 1.8rem;
+}
+
+.dashboard {
+    padding: 1rem 1.5rem;
+}
+
+.semestre1 {
+    padding: 1rem 1.5rem;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}

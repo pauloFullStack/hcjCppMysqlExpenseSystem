@@ -1,0 +1,3 @@
+/var/www/html/server/build/CMakeFiles/crudCpp.dir
+/var/www/html/server/build/CMakeFiles/edit_cache.dir
+/var/www/html/server/build/CMakeFiles/rebuild_cache.dir
