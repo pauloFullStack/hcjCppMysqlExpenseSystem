@@ -11,7 +11,7 @@
     border-radius: 5px;
     color: coral;
     padding: 20px;
-    text-align: center;    
+    text-align: center;
     cursor: pointer;
 
 }
@@ -20,7 +20,7 @@
     border: solid 2px #000;
     border-radius: 5px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
     cursor: pointer;
 }
@@ -28,13 +28,14 @@
 .style-cols-disciplinas:hover {
     border: solid 2px blue;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
     color: blue;
     padding: 10px;
     text-align: center;
     cursor: pointer;
 
 }
+
 
 h6 {
     margin: 0 !important;
@@ -54,4 +55,10 @@ h6 {
 
 .row {
     --bs-gutter-x: 0 !important;
+}
+
+img {
+    object-fit: cover;
+    width: 215px;
+    height: 121px;
 }

@@ -52,8 +52,8 @@ Base::Base(std::string route, std::string method, int client_socket, std::string
     {
         if (method == "GET")
         {
-            
-            // Primeiro ver as aulas do uniube mais... criar um rota e controller para esse recurso... e criar uma pagina para cada disciplina no front... ai começar a desenvolver os sistemas... começar por algebra e calculo diferencial...  
+
+            // Criar um rota e controller para esse recurso...
             std::string basePath = "/var/www/html/views"; // Caminho base
             std::string extension = ".html";
             std::string path = basePath + route + extension;
@@ -73,8 +73,6 @@ Base::Base(std::string route, std::string method, int client_socket, std::string
             {
                 response = "Erro ao abrir o arquivo.";
             }
-
-            // response = R"(<div style="padding: 20px;" class="row" ><div class="col-lg-3 style-cols" ><h2>1º Semestre</h2></div></div>)";
         }
         else
         {
