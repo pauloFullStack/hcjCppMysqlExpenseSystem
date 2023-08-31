@@ -1,6 +1,6 @@
 #include "ConnectHttp.h"
 #include "./route/Base.h"
-
+// Comerçar por aquir o estudo do c++ comentar cada ponto  do codigo,para que serve e se esta correto usar assim, e o porque que esta correto...
 void ConnectHttp::sendResponse(int client_socket, const std::string &response)
 {
     http_response =
