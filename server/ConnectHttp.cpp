@@ -1,19 +1,49 @@
 #include "ConnectHttp.h"
 #include "./route/Base.h"
-// Comerçar por aquir o estudo do c++ comentar cada ponto  do codigo,para que serve e se esta correto usar assim, e o porque que esta correto...
+
+/**
+ * sendResponse constrói uma resposta HTTP com cabeçalhos e corpo da resposta e a envia para o cliente através do client_socket.
+ * 
+ * @var client_socket: O client_socket é uma variável que representa o socket (soquete) de comunicação entre o servidor e um cliente específico. Em um servidor que lida com várias conexões simultâneas, como um servidor HTTP, um novo client_socket é criado para cada cliente que se conecta ao servidor.
+ * 
+ * 
+ */
 void ConnectHttp::sendResponse(int client_socket, const std::string &response)
 {
+    // Constrói a resposta HTTP, incluindo cabeçalhos como Status, Content-Length, Content-Type, e Access-Control-Allow.
     http_response =
         "HTTP/1.1 200 OK\r\n"
-        "Content-Length: " +
-        std::to_string(response.length()) + "\r\n"
-                                            "Content-Type: application/json\r\n"
-                                            "Access-Control-Allow-Origin: *\r\n"
-                                            "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\n"
-                                            "Access-Control-Allow-Headers: Content-Type\r\n"
-                                            "\r\n" +
+        // std::to_string = A função std::to_string em C++ é usada para converter valores numéricos, como inteiros ou números de ponto flutuante, em strings. 
+        "Content-Length: " + std::to_string(response.length()) + "\r\n"
+        "Content-Type: application/json\r\n"
+        "Access-Control-Allow-Origin: *\r\n"
+        "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\n"
+        "Access-Control-Allow-Headers: Content-Type\r\n"
+        "\r\n" +
         response;
 
+    // Tudo sobre a função 'send' e seus argumentos passados
+    #pragma region o que e send(client_socket, http_response.c_str(), http_response.length(), 0)
+    // send(client_socket, http_response.c_str(), http_response.length(), 0) = Envia a resposta para o cliente conectado usando o socket. 
+    
+    // O que são os argumentos passado na função 'send';
+    
+    // client_socket: Este é o primeiro parâmetro e representa o soquete do cliente para o qual você deseja enviar os dados. O client_socket é o identificador da conexão com um cliente específico, que foi obtido quando a conexão foi aceita usando a função accept.
+
+    //http_response.c_str(): Este é o segundo parâmetro e representa os dados que você deseja enviar. Neste caso, você está usando http_response.c_str(), que é um ponteiro constante para a representação C-style da string http_response. Isso fornece os dados da resposta HTTP que você deseja enviar.
+    
+    //http_response.length(): Este é o terceiro parâmetro e indica o tamanho dos dados que você deseja enviar. Você está usando http_response.length(), que retorna o comprimento da string http_response, ou seja, o número de caracteres na resposta HTTP que você está enviando.
+    
+    //0: Este é o quarto parâmetro, que são os chamados "flags" ou indicadores. Neste caso, o valor 0 é passado, o que indica que nenhuma opção ou configuração adicional está sendo especificada. Isso significa que a função send deve operar em seu comportamento padrão.
+    #pragma endregion
+    #pragma region o que e http_response.c_str() 
+    // http_response.c_str() = A função c_str() retorna um ponteiro constante para a sequência de caracteres interna da std::string. Esse ponteiro pode ser usado para acessar os caracteres da string, mas lembre-se de que é constante, o que significa que você não pode modificar o conteúdo da string por meio desse ponteiro. É uma maneira de permitir que você use uma std::string em contextos que requerem uma string C-style sem a necessidade de copiar os dados da string.
+
+    // C-style = quer dizer estilo na linguagem C
+    #pragma endregion
+    #pragma region o que e http_response.length()
+    // http_response.length() = A função length() é um método (ou membro) da classe std::string e é usada para obter o tamanho da string, ou seja, o número de caracteres que ela contém. O tamanho da string inclui todos os caracteres, incluindo espaços em branco, letras, números e qualquer outro caractere na string.
+    #pragma endregion
     send(client_socket, http_response.c_str(), http_response.length(), 0);
 }
 
@@ -96,7 +126,7 @@ ConnectHttp::ConnectHttp()
             std::string method, route;
             iss >> method >> route;
 
-            Base routeBase(route, method, client_socket, requestBody);            
+            Base routeBase(route, method, client_socket, requestBody);
 
             // Limpa a variavel que vem rota, body
             request.clear();
