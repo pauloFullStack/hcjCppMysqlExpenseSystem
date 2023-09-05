@@ -1,10 +1,9 @@
-##### Começar em toda sexta-feira a fazer essas tarefas:
+##### Esse projeto vai ser um framework meu
 
-
-###### 1. Estudar e treinar, todas as materias e ver os videos de cada materia
-
-###### 2. Fazer uniube +
-
-###### 3. Fazer os trabalhos [ metemática[calculoDiferencial] metemática[AlgebraLinear] ]
-
-###### 4. Estudar c++ arquivo => 'ConnectHttp.cpp'
+###### *Fazer ou em guias ou um menu mesmo, fazer responsivo
+###### *Fazer o formulario de cadastrar as depesas e o insert backend
+###### *Fazer o listar e o select backend
+###### *Fazer o update e o update backend
+###### *Fazer o delete e o delete backend
+###### *Colocar no servidor aws com ngnix
+###### *Criar um sisteminha de migration, ver como executar arquivos c++ por comando

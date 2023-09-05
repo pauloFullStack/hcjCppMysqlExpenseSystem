@@ -1,4 +1,4 @@
-.style-cols {
+/* .style-cols {
     border: solid 2px #000;
     border-radius: 5px;
     padding: 20px;
@@ -61,4 +61,45 @@ img {
     object-fit: cover;
     width: 215px;
     height: 121px;
+} */
+
+
+
+/* Style page LOGIN INICIO */
+.login {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
 }
+
+.login>div {
+    border: solid 2px #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.div-login-title {
+    margin-bottom: 1.5rem;
+}
+
+.div-login-label {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.div-login-input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.div-login-button{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Style page LOGIN FIM */
