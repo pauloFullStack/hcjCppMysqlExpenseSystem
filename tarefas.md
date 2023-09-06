@@ -1,7 +1,7 @@
 ##### Esse projeto vai ser um framework meu
 
 ###### *Criar um botão de registro na tela de login e, redirecionar para um formulario de registro e criar o backend para salvar esse registro na tabela login_users
-###### *Ver como criar sessão no c++
+###### *Ver como criar sessão no c++ 
 
 ###### *Fazer ou em guias ou um menu mesmo, fazer responsivo
 ###### *Fazer o formulario de cadastrar as depesas e o insert backend
