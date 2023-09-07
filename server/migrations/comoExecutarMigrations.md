@@ -4,6 +4,7 @@
 ###### OBS: na hora de colocar a senha '-psua_senha', pode deixar em branco para o proprio sistema perdir, isso é boa pratica
 ```
 mysql -useu_usuario -psua_senha < seuarquivo.sql
+mysql -uuser_paulo -pDavi91445129! < createTableLogin.sql
 ```
 
 ###### Ou executar em lote:
