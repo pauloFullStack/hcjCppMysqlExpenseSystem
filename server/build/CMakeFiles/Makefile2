@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /var/www/html/server/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/crudCpp.dir/all
+all: CMakeFiles/expenseSystem.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/crudCpp.dir/clean
+clean: CMakeFiles/expenseSystem.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/crudCpp.dir
+# Target rules for target CMakeFiles/expenseSystem.dir
 
 # All Build rule for target.
-CMakeFiles/crudCpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crudCpp.dir/build.make CMakeFiles/crudCpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crudCpp.dir/build.make CMakeFiles/crudCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target crudCpp"
-.PHONY : CMakeFiles/crudCpp.dir/all
+CMakeFiles/expenseSystem.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/expenseSystem.dir/build.make CMakeFiles/expenseSystem.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/expenseSystem.dir/build.make CMakeFiles/expenseSystem.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target expenseSystem"
+.PHONY : CMakeFiles/expenseSystem.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/crudCpp.dir/rule: cmake_check_build_system
+CMakeFiles/expenseSystem.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/server/build/CMakeFiles 14
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/crudCpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/expenseSystem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/server/build/CMakeFiles 0
-.PHONY : CMakeFiles/crudCpp.dir/rule
+.PHONY : CMakeFiles/expenseSystem.dir/rule
 
 # Convenience name for target.
-crudCpp: CMakeFiles/crudCpp.dir/rule
-.PHONY : crudCpp
+expenseSystem: CMakeFiles/expenseSystem.dir/rule
+.PHONY : expenseSystem
 
 # clean rule for target.
-CMakeFiles/crudCpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crudCpp.dir/build.make CMakeFiles/crudCpp.dir/clean
-.PHONY : CMakeFiles/crudCpp.dir/clean
+CMakeFiles/expenseSystem.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/expenseSystem.dir/build.make CMakeFiles/expenseSystem.dir/clean
+.PHONY : CMakeFiles/expenseSystem.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

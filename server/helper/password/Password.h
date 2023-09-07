@@ -4,6 +4,7 @@
 #include <string>
 #include <openssl/sha.h>
 
+
 class Password
 {
 

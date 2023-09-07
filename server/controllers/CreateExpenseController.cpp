@@ -21,7 +21,7 @@ std::string CreateExpenseController::createExpense(std::string body)
         std::string name = jsonData["name"];
         std::string email = jsonData["email"];
         std::string user = jsonData["user"];
-        // Esta dando erro na hora de compilar, compilar e ver o que é
+        
         pstmt->setString(1, name);
         pstmt->setString(2, email);
         pstmt->setString(3, user);

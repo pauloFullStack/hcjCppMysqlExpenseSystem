@@ -1,6 +1,6 @@
-#include "Password.h"
+#include "./Password.h"
 
-std::string createHashPassword(const std::string &password)
+std::string Password::createHashPassword(const std::string &password)
 {
     // Inicialize a estrutura de contexto SHA256
     SHA256_CTX sha256;
