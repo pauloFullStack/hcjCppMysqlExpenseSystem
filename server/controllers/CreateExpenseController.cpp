@@ -1,4 +1,5 @@
 #include "./CreateExpenseController.h"
+#include "../helper/password/Password.h"
 
 std::string CreateExpenseController::createExpense(std::string body)
 {
@@ -12,16 +13,20 @@ std::string CreateExpenseController::createExpense(std::string body)
 
         sql::Connection *con = connection.getConnection();
 
-        std::string query = "INSERT INTO crudcpp (nome, mail) VALUES (?, ?)";
+        std::string query = "INSERT INTO login_users (name, email, user, password) VALUES (?, ?, ?, ?)";
         pstmt = con->prepareStatement(query);
 
         nlohmann::json jsonData = nlohmann::json::parse(body);
 
-        std::string nome = jsonData["nome"];
+        std::string name = jsonData["name"];
         std::string email = jsonData["email"];
-
-        pstmt->setString(1, nome);
+        std::string user = jsonData["user"];
+        // Esta dando erro na hora de compilar, compilar e ver o que é
+        pstmt->setString(1, name);
         pstmt->setString(2, email);
+        pstmt->setString(3, user);
+        Password password;
+        pstmt->setString(4, password.createHashPassword(jsonData["password"]));
 
         res = pstmt->executeUpdate();
 

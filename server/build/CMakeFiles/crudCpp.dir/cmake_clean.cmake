@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o.d"
   "CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o"
   "CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o.d"
+  "CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o"
+  "CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o.d"
   "CMakeFiles/crudCpp.dir/index.cpp.o"
   "CMakeFiles/crudCpp.dir/index.cpp.o.d"
   "CMakeFiles/crudCpp.dir/models/ConnectionBd.cpp.o"

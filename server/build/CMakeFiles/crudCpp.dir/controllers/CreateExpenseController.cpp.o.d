@@ -347,4 +347,9 @@ CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o: \
  /usr/local/include/nlohmann/detail/conversions/to_chars.hpp \
  /usr/local/include/nlohmann/ordered_map.hpp /usr/include/c++/11/any \
  /usr/local/include/nlohmann/detail/macro_unscope.hpp \
- /usr/local/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+ /usr/local/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ /var/www/html/server/controllers/../helper/password/Password.h \
+ /usr/include/openssl/sha.h /usr/include/openssl/macros.h \
+ /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
+ /usr/include/x86_64-linux-gnu/openssl/configuration.h \
+ /usr/include/openssl/opensslv.h /usr/include/openssl/e_os2.h

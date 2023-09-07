@@ -64,8 +64,55 @@ img {
 } */
 
 
+/* variables START */
+:root {
+    --primary: #000;
+    /* Define uma variável chamada primary com o valor vermelho (#ff0000) */
+}
 
-/* Style page LOGIN INICIO */
+/* variables END */
+
+
+
+
+
+/* utility START */
+.rem-p-20 {
+    padding: 1.2rem;
+}
+
+input {
+    border-radius: 0.3rem;
+    border: solid 2px #808080;
+    padding: 0.4rem 0.3rem;
+}
+
+input:focus {
+    border: solid 2px var(--primary);
+    outline: none;
+}
+
+.flex-default-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.w-100-percent {
+    width: 100%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* utility END */
+
+
+
+
+/* login START */
 .login {
     margin: 0;
     padding: 0;
@@ -76,8 +123,11 @@ img {
     background-color: #f0f0f0;
 }
 
+
+
 .login>div {
-    border: solid 2px #000;
+    border: solid 2px var(--primary);
+    ;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -86,6 +136,7 @@ img {
 
 .div-login-title {
     margin-bottom: 1.5rem;
+    color: var(--primary);
 }
 
 .div-login-label {
@@ -97,9 +148,31 @@ img {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.div-login-button{
+
+.div-login-button {
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
-/* Style page LOGIN FIM */
+.link-forgot-password {
+    color: #808080
+}
+
+/* login END */
+
+
+
+
+/* register START */
+.register {
+    margin-bottom: 0.8rem;
+}
+
+/* register END */
+
+
+
+
+/* menu START */
+
+/* menu END */

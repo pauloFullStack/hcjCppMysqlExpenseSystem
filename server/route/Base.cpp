@@ -21,7 +21,7 @@ Base::Base(std::string route, std::string method, int client_socket, std::string
         }
         else if (method == "POST")
         {
-            if (route == "/api/post")
+            if (route == "/api/create/user")
             {
                 PostExpenseRoute createDataExpense;
                 response = createDataExpense.PostExpense(requestBody);

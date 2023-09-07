@@ -12,7 +12,7 @@ ConnectionBd::ConnectionBd()
     con = driver->connect("localhost", "user_paulo", "Davi91445129!");
 
     // Especifique o banco de dados a ser usando
-    con->setSchema("cpp");
+    con->setSchema("expense_system");
 }
 
 // Implementação do destructor

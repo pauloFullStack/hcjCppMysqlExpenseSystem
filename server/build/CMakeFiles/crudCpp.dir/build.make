@@ -153,10 +153,24 @@ CMakeFiles/crudCpp.dir/models/ConnectionBd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crudCpp.dir/models/ConnectionBd.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/server/models/ConnectionBd.cpp -o CMakeFiles/crudCpp.dir/models/ConnectionBd.cpp.s
 
+CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o: CMakeFiles/crudCpp.dir/flags.make
+CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o: ../helper/password/Password.cpp
+CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o: CMakeFiles/crudCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o -MF CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o.d -o CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o -c /var/www/html/server/helper/password/Password.cpp
+
+CMakeFiles/crudCpp.dir/helper/password/Password.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crudCpp.dir/helper/password/Password.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /var/www/html/server/helper/password/Password.cpp > CMakeFiles/crudCpp.dir/helper/password/Password.cpp.i
+
+CMakeFiles/crudCpp.dir/helper/password/Password.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crudCpp.dir/helper/password/Password.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /var/www/html/server/helper/password/Password.cpp -o CMakeFiles/crudCpp.dir/helper/password/Password.cpp.s
+
 CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o: CMakeFiles/crudCpp.dir/flags.make
 CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o: ../controllers/CreateExpenseController.cpp
 CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o: CMakeFiles/crudCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o -MF CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o.d -o CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o -c /var/www/html/server/controllers/CreateExpenseController.cpp
 
 CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.s: cmake_force
 CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o: CMakeFiles/crudCpp.dir/flags.make
 CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o: ../controllers/DeleteExpenseController.cpp
 CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o: CMakeFiles/crudCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o -MF CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o.d -o CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o -c /var/www/html/server/controllers/DeleteExpenseController.cpp
 
 CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.s: cmake_force
 CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o: CMakeFiles/crudCpp.dir/flags.make
 CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o: ../controllers/ExpenseTreatmentController.cpp
 CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o: CMakeFiles/crudCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o -MF CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o.d -o CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o -c /var/www/html/server/controllers/ExpenseTreatmentController.cpp
 
 CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.s: cmake_force
 CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o: CMakeFiles/crudCpp.dir/flags.make
 CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o: ../controllers/UpdateExpenseController.cpp
 CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o: CMakeFiles/crudCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o -MF CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o.d -o CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.o -c /var/www/html/server/controllers/UpdateExpenseController.cpp
 
 CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.s: cmake_force
 CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o: CMakeFiles/crudCpp.dir/flags.make
 CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o: ../ConnectHttp.cpp
 CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o: CMakeFiles/crudCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o -MF CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o.d -o CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o -c /var/www/html/server/ConnectHttp.cpp
 
 CMakeFiles/crudCpp.dir/ConnectHttp.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/crudCpp.dir/ConnectHttp.cpp.s: cmake_force
 CMakeFiles/crudCpp.dir/index.cpp.o: CMakeFiles/crudCpp.dir/flags.make
 CMakeFiles/crudCpp.dir/index.cpp.o: ../index.cpp
 CMakeFiles/crudCpp.dir/index.cpp.o: CMakeFiles/crudCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/crudCpp.dir/index.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/crudCpp.dir/index.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crudCpp.dir/index.cpp.o -MF CMakeFiles/crudCpp.dir/index.cpp.o.d -o CMakeFiles/crudCpp.dir/index.cpp.o -c /var/www/html/server/index.cpp
 
 CMakeFiles/crudCpp.dir/index.cpp.i: cmake_force
@@ -245,6 +259,7 @@ crudCpp_OBJECTS = \
 "CMakeFiles/crudCpp.dir/route/post/PostExpenseRoute.cpp.o" \
 "CMakeFiles/crudCpp.dir/route/put/PutExpenseRoute.cpp.o" \
 "CMakeFiles/crudCpp.dir/models/ConnectionBd.cpp.o" \
+"CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o" \
 "CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o" \
 "CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o" \
 "CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o" \
@@ -261,6 +276,7 @@ crudCpp: CMakeFiles/crudCpp.dir/route/get/GetExpenseRoute.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/route/post/PostExpenseRoute.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/route/put/PutExpenseRoute.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/models/ConnectionBd.cpp.o
+crudCpp: CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/controllers/CreateExpenseController.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/controllers/DeleteExpenseController.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/controllers/ExpenseTreatmentController.cpp.o
@@ -269,7 +285,7 @@ crudCpp: CMakeFiles/crudCpp.dir/ConnectHttp.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/index.cpp.o
 crudCpp: CMakeFiles/crudCpp.dir/build.make
 crudCpp: CMakeFiles/crudCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable crudCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable crudCpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crudCpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

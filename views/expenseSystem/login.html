@@ -1,22 +1,21 @@
 <div class="login">
     <div>
         <div class="div-login-title">
-            <h3>Expense System</h3>
+            <h3>ContExpense</h3>
         </div>
         <div class="div-login-input">
-            <div class="div-login-label">
-                <label>Usuário</label>
-            </div>
-            <input type="text" id="user" class="form-control" />
+            <input type="text" id="user" placeholder="Usuário" />
         </div>
         <div class="div-login-input">
-            <div class="div-login-label">
-                <label>Senha</label>
-            </div>
-            <input type="password" id="password" class="form-control" />
+            <input type="password" id="password" placeholder="Senha" />
         </div>
         <div class="div-login-button">
-            <button onclick="rederPage('expenseSystem/dashboard')" class="btn btn-outline-success" >Entrar</button>
+            <button onclick="rederPage('expenseSystem/dashboard')" class="btn btn-primary w-100-percent">Entrar</button>
+        </div>
+        <div class="div-login-button">
+            <button onclick="rederPage('expenseSystem/register')" class="btn btn-link w-100-percent">Registrar</button>
+            <button onclick="rederPage('expenseSystem/register')" class="btn btn-link link-forgot-password">Esqueceu a
+                senha ?</button>
         </div>
     </div>
 </div>

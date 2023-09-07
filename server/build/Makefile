@@ -249,6 +249,30 @@ controllers/UpdateExpenseController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crudCpp.dir/build.make CMakeFiles/crudCpp.dir/controllers/UpdateExpenseController.cpp.s
 .PHONY : controllers/UpdateExpenseController.cpp.s
 
+helper/password/Password.o: helper/password/Password.cpp.o
+.PHONY : helper/password/Password.o
+
+# target to build an object file
+helper/password/Password.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crudCpp.dir/build.make CMakeFiles/crudCpp.dir/helper/password/Password.cpp.o
+.PHONY : helper/password/Password.cpp.o
+
+helper/password/Password.i: helper/password/Password.cpp.i
+.PHONY : helper/password/Password.i
+
+# target to preprocess a source file
+helper/password/Password.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crudCpp.dir/build.make CMakeFiles/crudCpp.dir/helper/password/Password.cpp.i
+.PHONY : helper/password/Password.cpp.i
+
+helper/password/Password.s: helper/password/Password.cpp.s
+.PHONY : helper/password/Password.s
+
+# target to generate assembly for a file
+helper/password/Password.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crudCpp.dir/build.make CMakeFiles/crudCpp.dir/helper/password/Password.cpp.s
+.PHONY : helper/password/Password.cpp.s
+
 index.o: index.cpp.o
 .PHONY : index.o
 
@@ -441,6 +465,9 @@ help:
 	@echo "... controllers/UpdateExpenseController.o"
 	@echo "... controllers/UpdateExpenseController.i"
 	@echo "... controllers/UpdateExpenseController.s"
+	@echo "... helper/password/Password.o"
+	@echo "... helper/password/Password.i"
+	@echo "... helper/password/Password.s"
 	@echo "... index.o"
 	@echo "... index.i"
 	@echo "... index.s"
